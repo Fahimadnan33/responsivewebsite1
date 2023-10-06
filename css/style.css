@@ -1,0 +1,249 @@
+/* common css  */
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+/* common css  */
+/* header start  */
+.ha{
+    /* position: fixed; */
+    padding: 30px;
+    /* border: 1px solid; */
+}
+.container{
+    /* border: 1px solid; */
+    overflow: hidden;
+}
+.logo{
+    margin-top: 5px;
+    float: left;
+    width: 15%;
+}
+.logo p{
+
+}
+.menu{
+    margin-top: 5px;
+    float: right;
+    width: 60%;
+    /* border: 1px solid red; */
+
+}
+.menu ul{
+    float: right;
+
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0px 20px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color:black;
+    border: 2px solid transparent;
+    transition: .33s;
+}
+.menu ul li a:hover{
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+
+.menu ul li a:last-child{
+    margin-right: 0;
+}
+
+
+/* header end */
+
+/* banner start  */
+section{
+    padding: 0px 0px 100px 0px;
+   
+}
+.fahim{
+    background: url(../images/b1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.container-fulid{
+    display: grid;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+   
+}
+.text{
+   
+}
+.s_1{
+    color: black;
+}
+
+h1{
+    margin: 10px 0;
+    font-size: 60px;
+}
+.p_1{
+    padding: 0 20px;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+   
+}
+/* banner end */
+/* welcom start  */
+.se_1{
+    padding-bottom: 50px;
+    /* border: 1px solid; */
+}
+.con_1{
+
+}
+.welcom{
+    margin: 0 auto;
+    width: 88%;
+    padding: 0 20px;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.s_2{
+
+}
+.h_1{
+    font-size: 65px;
+}
+.p_2{
+    margin: 0;
+
+}
+/* welcom end  */
+/* side text start*/
+.se_2{
+ padding-bottom: 60px;
+ /* border: 1px solid; */
+}
+.con_3{
+    
+}
+.b-img{
+   /* width: 100%; */
+   /* border: 1px solid; */
+}
+.b-img img{
+    width: 100%;
+    /* height: 100vh; */
+
+}
+.side-text{
+    text-align: center;
+    width: 100%;
+   
+    
+}
+.s_3{
+    font-size: 50px;
+}
+.h2_1{
+    margin-bottom: 30px;
+    font-size: 50px;
+
+}
+.list{
+    
+    font-size: 40px;
+}
+.list h3{
+    line-height: 80px;
+}
+/* side text end*/
+/* room strat  */
+.s_5{
+    padding-bottom: 50px;
+    width: 100%;
+    background-color:#f0f0f0 ;
+}
+.con_4{
+    padding-bottom: 80px;
+}
+.room{
+    margin-top: 20px;
+}
+.room img{
+    width: 100%;
+}
+.booking{
+    /* min-height: 100vh; */
+    background-color: #f8f9fa;
+    padding:10px;
+    text-align: center;
+}
+h4{
+   padding-top: 25px;
+}
+h5{
+ font-size: 26px;
+}
+small{
+    font-size: 15px;
+}
+.p_3{
+    
+
+}
+button{
+    width: 40%;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: .33s;
+}
+button:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.button1{
+    background-color:darkgrey;
+}
+.button1:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+/* room end  */
+/* customer start */
+.s_6{
+
+}
+.customer_color{
+    min-height: 50vh;
+    border: 1px soli red;
+    color: black;
+   background-color:darkkhaki;
+}
+.customer p{
+    margin: 0 auto;
+    width: 80%;
+}
+/* customer end*/
+/* last part2 start*/
+
+/* last part2 end */
+
+/*footer start  */
+
+
+
+/* footer end  */
